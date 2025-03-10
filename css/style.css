@@ -268,11 +268,10 @@ mainvisual
   }
 }
 
-/* .line {
+.line {
   border-top: solid 1px #333;
   animation: move 3s infinite linear;
-  一旦コメントアウト
-} */
+}
 
 @keyframes move {
 
@@ -301,9 +300,10 @@ about
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .about {
-  padding-top:80px;
-  margin-top:-80px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 .about-right {
@@ -377,9 +377,9 @@ about
 Benefit
 -------------------------------------------*/
 .benefit {
-    padding-top:80px;
-    margin-top:-80px;
-  }
+  padding-top: 80px;
+  margin-top: -80px;
+}
 
 .benefit .about-left {
   display: flex;
@@ -407,9 +407,10 @@ Benefit
 .about-left .container {
   width: 82%;
   padding: 40px 20px 40px;
-  
+
   border: 1px solid #000;
 }
+
 .benefit .about-txt {
   width: 50%;
   margin-left: auto;
@@ -420,7 +421,7 @@ Benefit
   font-size: 14px;
   margin-bottom: 15px;
   width: 100%;
-  text-align:left;
+  text-align: left;
 }
 
 
@@ -679,7 +680,8 @@ SP
 
   .open .toggle_btn {
     left: 90%;
-  } 
+  }
+
   /*-------------------------------------------
   mainvisual
   -------------------------------------------*/
@@ -691,79 +693,83 @@ SP
   .mainvisual .fade li img {
     height: 320px;
   }
-  
+
   /*-------------------------------------------
   about
   -------------------------------------------*/
-.about-title {
-  margin-bottom: 0;
-}
-.title .jp {
-  font-size: 24px;
-  letter-spacing: 8px;
-}
+  .about-title {
+    margin-bottom: 0;
+  }
 
-.en {
-  margin-bottom: 20px;
-}
-.about-right {
-  flex-direction: column-reverse;
-  margin-bottom: 120px;
-  position: inherit;
-}
-.about-right .photo {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-  left: 0;
-  top: 0;
-  transform: inherit;
-}
+  .title .jp {
+    font-size: 24px;
+    letter-spacing: 8px;
+  }
 
-.about-right .about-txt {
-  width: 100%;
-  margin: -30px auto 0;
-}
+  .en {
+    margin-bottom: 20px;
+  }
 
-.about-right .about-txt p {
-  font-size: 14px;
-  margin-bottom: 15px;
-  width: 100%;
-}
+  .about-right {
+    flex-direction: column-reverse;
+    margin-bottom: 120px;
+    position: inherit;
+  }
+
+  .about-right .photo {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: inherit;
+  }
+
+  .about-right .about-txt {
+    width: 100%;
+    margin: -30px auto 0;
+  }
+
+  .about-right .about-txt p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
 
   /*-------------------------------------------
   benefit
   -------------------------------------------*/
 
-.benefit .about-left {
-  flex-direction: column;
-  margin-bottom: 120px;
-  position: inherit;
-}
+  .benefit .about-left {
+    flex-direction: column;
+    margin-bottom: 120px;
+    position: inherit;
+  }
 
-.benefit .photo {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-  left: 0;
-  top: 0;
-  transform: inherit;
-}
+  .benefit .photo {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: inherit;
+  }
 
-.about-left .container {
-  width: 100%;
-  padding: 60px 20px 60px;
-  margin: -30px auto 0;
-}
-.benefit .about-txt {
-  width: 100%;
-}
+  .about-left .container {
+    width: 100%;
+    padding: 60px 20px 60px;
+    margin: -30px auto 0;
+  }
 
-.btn {
-  text-align: center;
-}
+  .benefit .about-txt {
+    width: 100%;
+  }
 
- /*-------------------------------------------
+  .btn {
+    text-align: center;
+  }
+
+  /*-------------------------------------------
   type
   -------------------------------------------*/
   .types ul {
@@ -789,7 +795,3 @@ SP
 
 
 }
-
-
-
-
