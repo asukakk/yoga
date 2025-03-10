@@ -218,9 +218,8 @@ mainvisual
   height: 100%;
   vertical-align: bottom;
   object-fit: cover;
-  /* animation: zoom-in 10s linear 0s infinite both;
-  一旦コメントアウト */
-  /* animation-delay: 2s; */
+  animation: zoom-in 10s linear 0s infinite both;
+  animation-delay: 2s;
 }
 
 
